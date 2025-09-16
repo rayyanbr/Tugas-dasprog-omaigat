@@ -1,7 +1,7 @@
 n, k = map(int, input().split())
 a = list(map(int, input().split()))
-count = 0
+bisa_dibeli = 0
 for harga in a:
     if harga <= k:
-        count += 1
-print(count)
+        bisa_dibeli += 1
+print(bisa_dibeli)
